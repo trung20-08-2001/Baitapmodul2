@@ -1,2 +1,5 @@
-package Bai7.AnimalAndInterfaceEdible;public interface Edible {
+package Bai7.AnimalAndInterfaceEdible;
+
+public interface Edible {
+    String howToEat();
 }
