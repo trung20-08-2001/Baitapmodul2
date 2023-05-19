@@ -25,7 +25,7 @@ public class MyLinkedList {
     public void add(Object data, int index) {
         Node temp = head;
         Node holder;
-        for (int i = 0; i < index -1&& temp.next  != null; i++) {
+        for (int i = 0; i < index-1&& temp.next  != null; i++) {
             temp=temp.next;
         }
         holder=temp.next;

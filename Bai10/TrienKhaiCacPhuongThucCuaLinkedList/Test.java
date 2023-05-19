@@ -18,17 +18,14 @@ public class Test {
             System.out.println("size: "+listint.getSize());
             listint.removeIndex(3);
             listint.removeObject(9);
-            System.out.print("\nDanh sách sau xóa: ");
+            System.out.print("Danh sách sau xóa: ");
             listint.printList();
             System.out.println();
             System.out.println("size: " +listint.getSize());
             System.out.println("9 có trong danh sách không: "+listint.contains(9));
             System.out.println("4 có trong danh sách không: "+listint.contains(4));
-            System.out.println("Vị trí của 3 "+listint.indexOf(3));
-            System.out.println("Vị trí của 9 "+listint.indexOf(9));
-            System.out.println("Vị trí của 8 "+listint.indexOf(8));
-
+            System.out.println("Vị trí đầu tiên của 3 "+listint.indexOf(3));
+            System.out.println("Vị trí đầu tiên của 9 "+listint.indexOf(9));
+            System.out.println("Vị trí đầu tiên của 8 "+listint.indexOf(8));
     }
-
-
 }
