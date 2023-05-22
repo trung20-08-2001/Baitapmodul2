@@ -1,9 +1,9 @@
-package Bai11;
+package MyCollection;
 
 
 public class Test {
     public static void main(String[] args) {
-        MyQueue<Integer> queue = new MyQueue<>();
+        MyQueueLinkedList<Integer> queue = new MyQueueLinkedList<>();
         System.out.println(queue.size());
         System.out.println(queue.isEmpty());
         queue.add(1);

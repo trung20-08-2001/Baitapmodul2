@@ -1,11 +1,11 @@
-package Bai11;
+package MyCollection;
 
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class MyQueue<E> implements Queue<E> {
+public class MyQueueLinkedList<E> implements Queue<E> {
     private LinkedList<E> list=new LinkedList<>();
     @Override
     public int size() {
@@ -68,8 +68,7 @@ public class MyQueue<E> implements Queue<E> {
     }
 
     @Override
-    public void clear() {
-    }
+    public void clear() {}
 
     @Override
     public boolean offer(E e) {
