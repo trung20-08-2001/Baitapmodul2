@@ -58,7 +58,6 @@ public class PostorderBST<E extends Comparable<E>> {
         postorderTraversal(root.left);
         postorderTraversal(root.right);
         System.out.print(root.element + " ");
-
     }
 
     public void postorderTraversal(){
