@@ -1,7 +1,5 @@
 package Bai10.TrienKhaiCacPhuongThucCuaArrayList;
 
-import java.util.Arrays;
-
 public class Test {
     public static void main(String[] args) {
         MyList<Integer> test=new MyList<>();
@@ -34,7 +32,5 @@ public class Test {
         test.clear();
         System.out.println(test.getSize());
         test.print();
-
-
     }
 }
