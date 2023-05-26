@@ -19,12 +19,8 @@ public class CopyFileText {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }finally {
-            if(bufferedReader!=null){
-                bufferedReader.close();
-            }
-            if(bufferedWriter!=null) {
-                bufferedWriter.close();
-            }
+            bufferedReader.close();
+            bufferedWriter.close();
         }
     }
 

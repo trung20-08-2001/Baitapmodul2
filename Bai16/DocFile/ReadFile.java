@@ -1,8 +1,6 @@
 package Bai16.DocFile;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class ReadFile {
@@ -13,7 +11,7 @@ public class ReadFile {
                 throw new FileNotFoundException();
             }
             BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-            String line = "";
+            String line;
             String content="";
             while ((line = bufferedReader.readLine()) != null) {
                 String[] list = new String[3];

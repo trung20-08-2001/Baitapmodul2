@@ -36,11 +36,9 @@ public class ReadAndWriteFile {
     }
 
     public void writeFile(String filePath,int max){
-        try{
-            FileWriter fileWriter=new FileWriter(filePath);
-            BufferedWriter bufferedWriter=new BufferedWriter(fileWriter);
+        try( FileWriter fileWriter=new FileWriter(filePath);
+             BufferedWriter bufferedWriter=new BufferedWriter(fileWriter)){
             bufferedWriter.write("Giá trị lớn nhất là: "+max);
-            bufferedWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

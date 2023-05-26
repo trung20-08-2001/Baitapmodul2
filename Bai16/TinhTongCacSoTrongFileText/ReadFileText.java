@@ -11,18 +11,16 @@ public class ReadFileText {
                 throw new FileNotFoundException();
             }
             BufferedReader br = new BufferedReader(new FileReader(file));
-            String line = "";
+            String line;
             int sum = 0;
             while ((line = br.readLine()) != null) {
                 System.out.println(line);
-                sum += Integer.parseInt(line);
-
+                sum+= Integer.parseInt(line);
             }
             br.close();
             System.out.println("Tổng: "+sum);
         } catch (FileNotFoundException e) {
             System.out.println("File không tồn tại");
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
