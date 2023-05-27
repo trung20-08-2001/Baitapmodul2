@@ -78,7 +78,7 @@ public class ManagerProduct {
         try (FileOutputStream fos=new FileOutputStream("C:\\Users\\trung\\IdeaProjects\\Md2\\Baitap\\src\\Bai17\\QuanLiSanPhamLuuVaoFileNhiPhan\\dataProduct.txt",true);
              ObjectOutputStream oos=new ObjectOutputStream(fos)) {
             if (!productList.isEmpty()) {
-                    oos.writeObject(productList + "\n");
+                    oos.writeObject(productList);
             } else {
                 oos.writeObject("Không có sản phẩm nào.");
             }
@@ -113,10 +113,10 @@ public class ManagerProduct {
         try (FileOutputStream fos = new FileOutputStream("C:\\Users\\trung\\IdeaProjects\\Md2\\Baitap\\src\\Bai17\\QuanLiSanPhamLuuVaoFileNhiPhan\\dataProduct.txt", true);
              ObjectOutputStream oos = new ObjectOutputStream(fos)){
             if (index != -1) {
-                oos.writeObject("Đây là sản phẩm bạn cần tìm:\n");
-                oos.writeObject(productList.get(index) + "\n");
+                oos.writeObject("Đây là sản phẩm bạn cần tìm:");
+                oos.writeObject(productList.get(index));
             } else {
-                oos.writeObject("Mã sản phẩm không hợp lệ.\n");
+                oos.writeObject("Mã sản phẩm không hợp lệ.");
             }
         } catch (IOException e) {
             e.printStackTrace();
