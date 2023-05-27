@@ -38,7 +38,7 @@ public class ReadAndWriteFile {
     public void writeFile(String filePath,int max){
         try( FileWriter fileWriter=new FileWriter(filePath);
              BufferedWriter bufferedWriter=new BufferedWriter(fileWriter)){
-            bufferedWriter.write("Giá trị lớn nhất là: "+max);
+            bufferedWriter.write("Number Max: "+max);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -47,7 +47,7 @@ public class ReadAndWriteFile {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
         ReadAndWriteFile test=new ReadAndWriteFile();
-        System.out.println("Nhập đường dẫn file.");
+        System.out.println("Enter file Path.");
         String filePath=scanner.nextLine();
         List<Integer> arrayList= test.reaFile(filePath);
         int max=test.findMax(arrayList);

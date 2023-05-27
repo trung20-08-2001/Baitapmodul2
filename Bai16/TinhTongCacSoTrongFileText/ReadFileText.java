@@ -18,9 +18,9 @@ public class ReadFileText {
                 sum+= Integer.parseInt(line);
             }
             br.close();
-            System.out.println("Tổng: "+sum);
+            System.out.println("Total: "+sum);
         } catch (FileNotFoundException e) {
-            System.out.println("File không tồn tại");
+            System.out.println("File does not exist.");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

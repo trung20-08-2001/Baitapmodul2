@@ -21,7 +21,7 @@ public class ReadFile {
             bufferedReader.close();
             return content;
         } catch (FileNotFoundException e) {
-            System.out.println("File không tồn tại.");
+            System.out.println("File does not exist.");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -31,10 +31,10 @@ public class ReadFile {
     public static void main(String[] args) {
         ReadFile readFile = new ReadFile();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập đường dẫn file:");
+        System.out.println("Enter file path:");
         String filePath = scanner.nextLine();
         String content = readFile.readFile(filePath);
-        System.out.println("Tên các quốc gia trong file của bạn.");
+        System.out.println("Country names in your file.");
         System.out.println(content);
     }
 }

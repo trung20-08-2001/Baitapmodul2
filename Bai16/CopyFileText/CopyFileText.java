@@ -28,12 +28,12 @@ public class CopyFileText {
         Scanner scanner=new Scanner(System.in);
         CopyFileText test=new CopyFileText();
         System.out.println("COPY FILE");
-        System.out.println("Nhập đường dẫn cần sao chép.");
+        System.out.println("Enter file path to copy.");
         String fileCopy= scanner.nextLine();
-        System.out.println("Nhập đường dẫn muốn sao chép sang.");
+        System.out.println("Enter file path to paste.");
         String fileWrite= scanner.nextLine();
         test.CopyFileText(fileCopy,fileWrite);
-        System.out.println("Hoàn thành sao chép.");
+        System.out.println("Complete copy.");
 
     }
 }
