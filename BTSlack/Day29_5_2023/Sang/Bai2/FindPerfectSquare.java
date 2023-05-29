@@ -1,4 +1,4 @@
-package BTSlack.Day29_5_2023.Bai2;
+package BTSlack.Day29_5_2023.Sang.Bai2;
 
 public class FindPerfectSquare {
     public int findPerfectSquare(int number) {

@@ -1,4 +1,4 @@
-package BTSlack.Day29_5_2023.Bai4;
+package BTSlack.Day29_5_2023.Sang.Bai4;
 
 public class CheckFibonacci {
     public static boolean checkFibonacci(int[] arr) {

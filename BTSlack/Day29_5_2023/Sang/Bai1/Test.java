@@ -1,4 +1,4 @@
-package BTSlack.Day29_5_2023.Bai1;
+package BTSlack.Day29_5_2023.Sang.Bai1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package BTSlack.Day29_5_2023.Bai5;
+package BTSlack.Day29_5_2023.Sang.Bai5;
 
 import java.util.ArrayList;
 import java.util.Collections;

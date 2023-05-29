@@ -1,8 +1,6 @@
-package BTSlack.Day29_5_2023.Bai1;
-
+package BTSlack.Day29_5_2023.Sang.Bai1;
 import java.util.ArrayList;
 import java.util.List;
-
 public class FindNextPerfectNumber {
     public int findNextPerfectNumber(int number) {
         if(isPerfectNumber(number)){
@@ -44,5 +42,4 @@ public class FindNextPerfectNumber {
         }
         return false;
     }
-
 }

@@ -1,7 +1,7 @@
-package BTSlack.Day29_5_2023.Bai8;
+package BTSlack.Day29_5_2023.Sang.Bai8;
 
-import BTSlack.Day29_5_2023.Bai3.FindMaxOfList;
-import BTSlack.Day29_5_2023.Bai7.TotalNumbersOfString;
+import BTSlack.Day29_5_2023.Sang.Bai3.FindMaxOfList;
+import BTSlack.Day29_5_2023.Sang.Bai7.TotalNumbersOfString;
 
 public class TotalNumbersOfOnePrimeNumber {
     //Tìm số nguyên tố có tổng các chữ số lớn nhất. SNT < 100.
