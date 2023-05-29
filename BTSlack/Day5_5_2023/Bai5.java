@@ -1,4 +1,4 @@
-package BTVN;
+package BTSlack.Day5_5_2023;
 
 public class Bai5 {
     //. Viết chương trình để tính tổng của tất cả

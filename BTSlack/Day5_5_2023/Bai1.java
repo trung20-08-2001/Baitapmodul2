@@ -1,4 +1,4 @@
-package BTVN;
+package BTSlack.Day5_5_2023;
 
 import java.util.Scanner;
 
